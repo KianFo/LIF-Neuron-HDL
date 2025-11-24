@@ -22,14 +22,6 @@ Clean separation between control logic and arithmetic units
 
 Synchronous, synthesizable design
 
-Project Structure
-/LIF-Neuron-HDL
-│
-├── dataPath.sv        # Datapath: registers, arithmetic, muxes
-├── controller.sv      # FSM controller for sequencing operations
-├── README.md          # Project documentation
-└── (optional) testbench.sv if you add one
-
 How the Design Works
 Datapath
 
@@ -110,4 +102,5 @@ Teaching computer architecture / digital design concepts
 Author
 
 Kian Fotovat
+
 Computer Architecture Project
